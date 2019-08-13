@@ -11,7 +11,7 @@
   xmlns:html="http://www.sitecore.net/microsoft/htmlcontrols"
   xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 
-  <Sitecore.Shell.Applications.Media.ImageProperties x:inherits="Sitecore.Shell.Applications.Media.ImageProperties.ImagePropertiesPage,Sitecore.Client">
+  <Sitecore.Shell.Applications.Media.ImageProperties x:inherits="Sitecore.Shell.Applications.Media.ImageProperties.ImagePropertiesPage,Sitecore.Support.350054">
     <Sitecore.Controls.DialogPage Header="Image Properties" Icon="Applications/32x32/photo_scenery.png" Text="Set the properties for the image here." runat="server">
 
       <AjaxScriptManager runat="server"/>

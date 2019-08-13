@@ -116,7 +116,7 @@ namespace Sitecore.Shell.Applications.Media.ImageProperties
                 if (this.Aspect.Checked)
                 {
 
-                    this.WidthEdit.Text = ((int)((float)num / (float)this.ImageHeight * (float)this.ImageWidth)).ToString();
+                    this.WidthEdit.Text = (Math.Round((float)num / (float)this.ImageHeight * (float)this.ImageWidth)).ToString();
                     SheerResponse.SetAttribute(this.WidthEdit.ClientID, "value", this.WidthEdit.Text);
                 }
             }
@@ -141,7 +141,7 @@ namespace Sitecore.Shell.Applications.Media.ImageProperties
                 }
                 if (this.Aspect.Checked)
                 {
-                    this.HeightEdit.Text = ((int)((float)num / (float)this.ImageWidth * (float)this.ImageHeight)).ToString();
+                    this.HeightEdit.Text = (Math.Round((float)num / (float)this.ImageWidth * (float)this.ImageHeight)).ToString();
                     SheerResponse.SetAttribute(this.HeightEdit.ClientID, "value", this.HeightEdit.Text);
                 }
             }
